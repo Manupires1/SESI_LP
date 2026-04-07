@@ -1,4 +1,4 @@
-/*
+'/*
       4) Verificação de Aprovação
       Leia a nota de um aluno (0 a 10).
       Informe:
@@ -17,10 +17,10 @@ int main() {
 
     if (nota >= 7.0) {
         printf("Status: Aprovado!\n");
-    } 
+    }
     else if (nota >= 5.0) {
         printf("Status: Recuperação.\n");
-    } 
+    }
     else {
         printf("Status: Reprovado.\n");
     }
